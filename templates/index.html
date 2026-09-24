@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Number Guessing Game</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+
+</head>
+
+
+<body>
+
+    <div class="game-box">
+
+        <h1>🎯 Number Guessing Game</h1>
+
+        <p>Guess a number between 1 and 100</p>
+
+
+        <!-- Player Information -->
+
+        <div id="start-section">
+
+            <input
+                type="text"
+                id="nameInput"
+                placeholder="Enter your name"
+            >
+
+            <input
+                type="text"
+                id="favoriteGameInput"
+                placeholder="Your favorite game"
+            >
+
+            <button onclick="startGame()">
+                Start Game
+            </button>
+
+        </div>
+
+
+        <!-- Game Section -->
+
+        <div id="game-section" style="display: none;">
+
+            <h2 id="welcomeMessage"></h2>
+
+
+            <input
+                type="number"
+                id="guessInput"
+                placeholder="Enter your guess"
+                min="1"
+                max="100"
+            >
+
+
+            <button onclick="checkGuess()">
+                Guess
+            </button>
+
+
+            <h3 id="result"></h3>
+
+
+            <button
+                id="newGameButton"
+                onclick="newGame()"
+                style="display: none;"
+            >
+                New Game
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <script src="/static/script.js"></script>
+
+</body>
+
+</html>

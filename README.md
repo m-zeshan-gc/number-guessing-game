@@ -4,7 +4,7 @@ A simple Number Guessing Game built with Python, FastAPI, HTML, CSS, and JavaScr
 
 ## 🎮 Live Demo
 
-Coming soon...
+Live Demo: [Play Number Guessing Game](https://MalikZeshan.pythonanywhere.com)
 
 ## 📌 About The Project
 
